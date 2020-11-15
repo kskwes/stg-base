@@ -1,10 +1,9 @@
 let mySwiper = new Swiper ('.swiper-container', {
     loop: false,
     effect: 'slide',
-    slidesPerView: 1,
     slidesPerView: 1.5,
-    centeredSlides : true,
+    spaceBetween: 45,
     mousewheel: {
         invert: false,
-    },
+    }
 })

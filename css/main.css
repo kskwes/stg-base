@@ -3,12 +3,11 @@
   width: 100%;
 }
 
-.swiper-slide {
-  width: 600px;
-  height: 400px;
-  background: #ddd;
+.swiper-container {
+  max-width: 800px;
+  margin: 0 auto;
 }
 
-.swiper-slide:not(:last-child) {
-  margin-right: 90px;
+.swiper-slide img {
+  width: 100%;
 }

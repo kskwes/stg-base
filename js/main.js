@@ -1,7 +1,10 @@
-var elem = document.getElementById('elem');
-elem.addEventListener('click',function(){
+var el = document.querySelectorAll('.el');
+var btn = document.querySelector('.btn');
+
+btn.addEventListener('click',function(){
     anime({
-        targets: elem,
-        translateX: 250
+        targets: el,
+        translateX: 270,
+        delay: anime.stagger(100)
     })
 })

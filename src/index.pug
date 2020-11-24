@@ -1,0 +1,16 @@
+doctype
+html(lang='ja')
+  head
+    meta(charset='utf-8')
+    link(rel='stylesheet', href="./css/style.css")
+    title Staging Base
+
+  body
+    .wrapper
+        - for (var x = 1; x < 6; x++)
+            .square.el
+    .btn
+        |START
+
+    script(src='../js/main.js')
+    script(src='../js/plugins/anime.min.js')

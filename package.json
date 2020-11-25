@@ -1,0 +1,23 @@
+{
+  "name": "stg-base",
+  "version": "1.0.0",
+  "description": "## 主にいろいろ練習したり試したりするようのリポジトリ mainには基本的なファイルセットを置き、何かする場合はブランチを切って作業する。",
+  "main": "index.js",
+  "dependencies": {
+    "dayjs": "^1.9.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kskwes/stg-base.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kskwes/stg-base/issues"
+  },
+  "homepage": "https://github.com/kskwes/stg-base#readme"
+}
